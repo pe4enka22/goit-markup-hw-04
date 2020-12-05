@@ -87,6 +87,7 @@ ul {
 
 .logo {
   font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
@@ -199,7 +200,11 @@ ul {
   padding: 200px 0;
 
   background-color: var(--hero-color);
-  background-image: url("../images/hero/hero-img.jpg");
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero/hero-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -574,6 +579,7 @@ ul {
 
 .footer-blocks {
   display: flex;
+  align-items: baseline;
 }
 .website-footer .logo {
   display: block;
